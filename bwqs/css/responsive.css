@@ -1,0 +1,42 @@
+
+
+/*==========  Mobile First Method  ==========*/
+
+	/* Landscape phones and smaller */
+@media (max-width: 480px) {
+ body{background:#4CFF4C;}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 768px) {
+ body{background:#A64CFF;} 
+  
+
+}
+
+	/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+body{background:#008C46;}
+.woocommerce .related ul li.product, .woocommerce .related ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
+  width: 30%;
+}
+}
+
+	/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+ body{background:#DFBFFF;}
+.woocommerce .related ul li.product, .woocommerce .related ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
+  width: 30%;
+}
+}
+
+
+	/* Large desktops and laptops */ /* my desktop */
+@media (min-width: 1200px) {
+body{background:#DBDBEA;}
+.woocommerce .related ul li.product, .woocommerce .related ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .upsells.products ul li.product, .woocommerce-page .upsells.products ul.products li.product {
+  width: 30%;
+}
+
+}
